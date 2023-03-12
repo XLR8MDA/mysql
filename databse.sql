@@ -1,3 +1,4 @@
+
 --Create database
 create database record_company;
 
