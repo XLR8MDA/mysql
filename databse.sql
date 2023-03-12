@@ -1,4 +1,3 @@
-
 --Create database
 create database record_company;
 
@@ -63,3 +62,4 @@ where song_name='hero tera';  -- succesfully change
 select * from artists
 inner join songs on artists.artist_id=songs.artist_id  --( inner join shows only values which are present in both tables)
 order by song_id DESC;
+
